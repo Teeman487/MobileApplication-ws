@@ -1,10 +1,11 @@
-package com.appsdeveloperblog.app.ws.mobileappws.ui.modelresponse;
+package com.appsdeveloperblog.app.ws.mobileappws.ui.model.requestDto;
 
 import jakarta.validation.constraints.Email;
 import jakarta.validation.constraints.NotNull;
 import jakarta.validation.constraints.Size;
 
-public class UserDetailsRequestModel {
+// User Details Request Model
+public class UserDto {
     @NotNull(message = "first name cannot be null")
     @Size(min=2, message ="First name must not be less than 2 characters")
     private String firstName;

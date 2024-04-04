@@ -1,4 +1,4 @@
-package com.appsdeveloperblog.app.ws.mobileappws.Exceptions;
+package com.appsdeveloperblog.app.ws.mobileappws.exceptions;
 
 import java.io.Serial;
 

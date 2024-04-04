@@ -1,8 +1,6 @@
-package com.appsdeveloperblog.app.ws.mobileappws.ui.modelresponse;
-
-import org.springframework.lang.NonNull;
-
-public class UserRest {
+package com.appsdeveloperblog.app.ws.mobileappws.ui.model.responseEntity;
+// Entity
+public class User {
     public String firstName;
     public String lastName;
     public String email;

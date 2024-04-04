@@ -1,9 +1,9 @@
-package com.appsdeveloperblog.app.ws.mobileappws.ui.modelresponse;
+package com.appsdeveloperblog.app.ws.mobileappws.ui.model.request;
 
 import jakarta.validation.constraints.NotNull;
 import jakarta.validation.constraints.Size;
 
-public class UpdateUserDetailsRequestModel {
+public class UpdateUser {
     @NotNull(message = "first name cannot be null")
     @Size(min=2, message ="First name must not be less than 2 characters")
     private String firstName;

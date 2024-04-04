@@ -1,8 +1,9 @@
-package com.appsdeveloperblog.app.ws.mobileappws.ui.modelresponse;
+package com.appsdeveloperblog.app.ws.mobileappws.ui.model.responseEntity;
 
 import java.util.Date;
 
-public class ErrorMessage { // Return Custome Error Message Object
+// Return Custom Error Message Object
+public class ErrorMessage {
     private Date timestamp;
     private String message;
 
